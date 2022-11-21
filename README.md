@@ -30,3 +30,7 @@ Clone the repository and follow these steps:
 9. Change to the client directory: ```cd client```
 10. Start up your React server: ```npm start```
   - I did not get this running with Safari but it otherwise should work. It started up in Brave just fine.
+
+##### I had lots of issues with the production deployment of the contract. The best solution I found was to use ```truffle dashboard```.
+This uses a local host to sign transactions with your browser (MetaMask). After running a separate terminal window with the dashboard command configure
+your config file to the port provided.
